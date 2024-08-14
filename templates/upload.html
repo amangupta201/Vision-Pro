@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Enhancer</title>
+</head>
+<body>
+    <h1>Upload and Enhance Image</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*" multiple required><br><br> <!-- Added multiple attribute -->
+
+        <label for="enhancement_type">Choose Enhancement:</label><br>
+        <select name="enhancement_type" id="enhancement_type" required>
+            <option value="super_resolution">Super Resolution</option>
+            <option value="denoising">Denoising</option>
+            <option value="color_correction">Color Correction</option>
+            <option value="sharpen_image">Sharpen Image</option>
+            <option value="contrast_enhancement">Contrast Enhancement</option>
+            <option value="deblur_image">Deblur Image</option>
+            <option value="hdr_compression">HDR Compression</option>
+            <option value="artistic_filter">Artistic Filter</option>
+            <option value="grayscale_conversion">Grayscale Conversion</option>
+            <option value="image_stitching">Image Stitching</option>
+            <option value="watermarking">Add Watermark</option>
+            <option value="background_removal">Background Removal</option>
+            <option value="cartoonify">Cartoonify</option>
+
+        </select><br><br>
+
+        <input type="submit" value="Enhance Image">
+    </form>
+</body>
+</html>
