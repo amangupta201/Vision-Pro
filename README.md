@@ -1,6 +1,6 @@
-# Image-Enhancer
+# Vision Pro
 
-The AI-Powered Image Enhancer is an advanced application designed to improve the quality and aesthetics of images using a variety of image processing techniques. This project aims to provide users with a comprehensive set of tools for enhancing images, whether for personal, professional, or creative use.
+The AI-Powered Vision Pro is an advanced application designed to improve the quality and aesthetics of images using a variety of image processing techniques. This project aims to provide users with a comprehensive set of tools for enhancing images, whether for personal, professional, or creative use.
 
 The application supports multiple enhancement features including:
 
